@@ -17,6 +17,7 @@ This is a prototype project, with the minimum of *"other code than JavaScript"*,
   - Changing the chat color
   - Sending audio messages using the blob protocol (optimized)
   - Notifications sounds
+  - Automatic scroll to latest message
 
 If you want to implement the database storage feature, you can check [this repo](https://github.com/abdeljalil-salhi/MyChat), with some of the above features in a working project.
 
