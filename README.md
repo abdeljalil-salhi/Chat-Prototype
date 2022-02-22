@@ -1,7 +1,7 @@
 # Chat-Prototype
 > Basic Chat Prototype (typing, audio, stickers, emojis, file, image, online, commands)
 
-This is a prototype project, with the minimum of other code than JavaScript, you can use this project to implement the features you are looking for into your project. Feel free to contact if any of the code didn't make sense to you.
+This is a prototype project, with the minimum of *"other code than JavaScript"*, you can use this project to implement the features you are looking for into your project. Feel free to contact if any of the code didn't make sense to you.
 
 # Features
   - Realtime Chat with unlimited users
