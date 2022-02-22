@@ -23,3 +23,15 @@ If you want to implement the database storage feature, you can check [this repo]
 
 ## Little Screenshot
 ![image](https://user-images.githubusercontent.com/65598953/155236621-5429f986-6a51-4ea0-b71e-c2f5384f4df0.png)
+
+# Installation
+  - Download the requirements ([NodeJS](https://nodejs.org/en/download/))
+  - Go to terminal
+  - Open the project dir in terminal
+  - Type the following command:
+
+```sh
+$ npm install
+```
+**PS:** 
+if you're under Windows, you can use the ```start.bat``` file to run the project, or type ``npm start`` in your terminal.
