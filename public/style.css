@@ -1,0 +1,125 @@
+* {
+    outline: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* LOGIN WRAP */
+
+
+/* CONTENT WRAP */
+#content__wrap {
+    display: none;
+}
+
+#chat__wrap {
+    float: left;
+    border: 1px solid black;
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+
+#chat__box {
+    height: 500px;
+    width: 400px;
+    word-wrap: break-word;
+    overflow: auto;
+    padding: 5px 2px;
+}
+
+li {
+    list-style-type:none;
+}
+
+.error {
+    color: red;
+}
+
+.whisper, .log {
+    color: gray;
+    font-style: italic;
+}
+
+#input__message {
+    width: 300px;
+    min-height: 20px;
+    max-height: 60px;
+    overflow-y: auto;
+    border: 1px solid gray;
+    display: inline-block;
+    cursor: text;
+    padding: 2px 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#emojis {
+    float: right;
+    padding: 5px 5px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    width: 200px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#emojis span {
+    cursor: pointer;
+}
+
+#stickers {
+    float: right;
+    padding: 5px 5px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    width: 330px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#stickers img {
+    cursor: pointer;
+}
+
+.file a {
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.image__container {
+    position: relative;
+}
+
+.image__download {
+    position: absolute;
+    bottom: 8px;
+    left: 14px;
+}
+
+#audio {
+    padding: 5px 5px;
+}
+
+#colors {
+    float: right;
+    padding: 5px 5px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    width: 100px;
+}
+
+.color__div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin: auto auto;
+    border: 1px solid black;
+}

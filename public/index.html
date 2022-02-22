@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat TOME 07</title>
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+    <!-- LOGIN WRAP -->
+    <div id="login__wrap">
+        <p>Username:</p>
+        <p id="login__error"></p>
+        <form action="" id="login__form">
+            <input type="text" id="login__username" autocomplete="off"/>
+            <input type="submit" value="Log In"/>
+        </form>
+    </div>
+    <!-- CONTENT WRAP -->
+    <div id="content__wrap">
+        <div id="chat__wrap">
+            <ul id="chat__box"></ul>
+            <form action="" id="send__message">
+                <span id="input__message" contenteditable="true"></span>
+                <input type="submit" value="Send"/><br/>
+                <img class="hidden" id="source_image"/><img class="hidden" id="result_compress"/><img class="hidden" id="result_compress_image"/>
+                image: <input type="file" accept="image/*" id="upload__file"/><br/>
+                file: <input type="file" id="upload__file2"/>
+            </form>
+            <span class="typing">.</span>
+        </div>
+        <div>
+            <b>Users</b>
+            <ul id="users"></ul>
+        </div>
+        <div id="audio">
+            <b>Audio</b>
+            <button type="button" id="record">Start</button>
+            <button type="button" id="stopRecord" disabled>Stop</button>
+            <audio id="recordedAudio" class="hidden"></audio>
+        </div>
+        <div id="emojis">
+            <b>Emojis</b><br/>
+            Emoji Faces<br/>
+            <span id="emojis_01"></span>
+            <hr/>
+            People<br/>
+            <span id="emojis_02"></span>
+            <hr/>
+            Animals<br/>
+            <span id="emojis_03"></span>
+            <hr/>
+            Nature<br/>
+            <span id="emojis_04"></span>
+            <hr/>
+            Food<br/>
+            <span id="emojis_05"></span>
+            <hr/>
+            Objects<br/>
+            <span id="emojis_06"></span>
+            <hr/>
+            Old<br/>
+            <span id="emojis_99"></span>
+        </div>
+        <div id="stickers">
+            <b>Stickers</b><br/>
+            01<br/>
+            <span id="stickers_01"></span>
+            <hr/>
+            02<br/>
+            <span id="stickers_02"></span>
+        </div>
+        <div id="colors">
+            <b>Colors</b><br/>
+        </div>
+    </div>
+    <script src="/jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+    <script src="/inserts.js"></script>
+    <audio id="beepMessage" src="/audio/open-ended.ogg" autoplay="false"></audio>
+    <audio id="beepLog" src="/audio/plucky.ogg" autoplay="false"></audio>
+    <audio id="beepError" src="/audio/case-closed.ogg" autoplay="false"></audio>
+</body>
+</html>
